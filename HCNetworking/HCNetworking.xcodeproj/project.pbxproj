@@ -33,6 +33,14 @@
 		8407610D2437375C00274465 /* IFLYNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = 8407610C2437375C00274465 /* IFLYNetworking.m */; };
 		8473AC2E243D62BD00CD3027 /* MBProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = 8473AC2A243D62BD00CD3027 /* MBProgressHUD.m */; };
 		8473AC2F243D62BD00CD3027 /* MBProgressHUD+Add.m in Sources */ = {isa = PBXBuildFile; fileRef = 8473AC2B243D62BD00CD3027 /* MBProgressHUD+Add.m */; };
+		847D7726248F3539009B4B6A /* IFLYHAFNetworkReachabilityManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 847D7719248F3539009B4B6A /* IFLYHAFNetworkReachabilityManager.m */; };
+		847D7727248F3539009B4B6A /* IFLYHAFURLSessionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 847D771A248F3539009B4B6A /* IFLYHAFURLSessionManager.m */; };
+		847D7728248F3539009B4B6A /* IFLYHAFURLRequestSerialization.m in Sources */ = {isa = PBXBuildFile; fileRef = 847D771C248F3539009B4B6A /* IFLYHAFURLRequestSerialization.m */; };
+		847D7729248F3539009B4B6A /* IFLYHAFNetworkActivityIndicatorManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 847D771F248F3539009B4B6A /* IFLYHAFNetworkActivityIndicatorManager.m */; };
+		847D772A248F3539009B4B6A /* IFLYHAFURLResponseSerialization.m in Sources */ = {isa = PBXBuildFile; fileRef = 847D7720248F3539009B4B6A /* IFLYHAFURLResponseSerialization.m */; };
+		847D772B248F3539009B4B6A /* IFLYHAFHTTPSessionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 847D7721248F3539009B4B6A /* IFLYHAFHTTPSessionManager.m */; };
+		847D772C248F3539009B4B6A /* IFLYHAFSecurityPolicy.m in Sources */ = {isa = PBXBuildFile; fileRef = 847D7725248F3539009B4B6A /* IFLYHAFSecurityPolicy.m */; };
+		847D772F248F3543009B4B6A /* IFLYHIFLYNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = 847D772E248F3542009B4B6A /* IFLYHIFLYNetworking.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -108,6 +116,23 @@
 		8473AC2B243D62BD00CD3027 /* MBProgressHUD+Add.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "MBProgressHUD+Add.m"; sourceTree = "<group>"; };
 		8473AC2C243D62BD00CD3027 /* MBProgressHUD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MBProgressHUD.h; sourceTree = "<group>"; };
 		8473AC2D243D62BD00CD3027 /* MBProgressHUD+Add.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "MBProgressHUD+Add.h"; sourceTree = "<group>"; };
+		847D7716248F3539009B4B6A /* IFLYHAFURLRequestSerialization.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IFLYHAFURLRequestSerialization.h; sourceTree = "<group>"; };
+		847D7717248F3539009B4B6A /* IFLYHAFHTTPSessionManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IFLYHAFHTTPSessionManager.h; sourceTree = "<group>"; };
+		847D7718248F3539009B4B6A /* IFLYHAFURLResponseSerialization.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IFLYHAFURLResponseSerialization.h; sourceTree = "<group>"; };
+		847D7719248F3539009B4B6A /* IFLYHAFNetworkReachabilityManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IFLYHAFNetworkReachabilityManager.m; sourceTree = "<group>"; };
+		847D771A248F3539009B4B6A /* IFLYHAFURLSessionManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IFLYHAFURLSessionManager.m; sourceTree = "<group>"; };
+		847D771B248F3539009B4B6A /* IFLYHAFSecurityPolicy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IFLYHAFSecurityPolicy.h; sourceTree = "<group>"; };
+		847D771C248F3539009B4B6A /* IFLYHAFURLRequestSerialization.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IFLYHAFURLRequestSerialization.m; sourceTree = "<group>"; };
+		847D771E248F3539009B4B6A /* IFLYHAFNetworkActivityIndicatorManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IFLYHAFNetworkActivityIndicatorManager.h; sourceTree = "<group>"; };
+		847D771F248F3539009B4B6A /* IFLYHAFNetworkActivityIndicatorManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IFLYHAFNetworkActivityIndicatorManager.m; sourceTree = "<group>"; };
+		847D7720248F3539009B4B6A /* IFLYHAFURLResponseSerialization.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IFLYHAFURLResponseSerialization.m; sourceTree = "<group>"; };
+		847D7721248F3539009B4B6A /* IFLYHAFHTTPSessionManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IFLYHAFHTTPSessionManager.m; sourceTree = "<group>"; };
+		847D7722248F3539009B4B6A /* IFLYHAFURLSessionManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IFLYHAFURLSessionManager.h; sourceTree = "<group>"; };
+		847D7723248F3539009B4B6A /* IFLYHAFNetworking.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IFLYHAFNetworking.h; sourceTree = "<group>"; };
+		847D7724248F3539009B4B6A /* IFLYHAFNetworkReachabilityManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IFLYHAFNetworkReachabilityManager.h; sourceTree = "<group>"; };
+		847D7725248F3539009B4B6A /* IFLYHAFSecurityPolicy.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IFLYHAFSecurityPolicy.m; sourceTree = "<group>"; };
+		847D772D248F3542009B4B6A /* IFLYHIFLYNetworking.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IFLYHIFLYNetworking.h; sourceTree = "<group>"; };
+		847D772E248F3542009B4B6A /* IFLYHIFLYNetworking.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IFLYHIFLYNetworking.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -158,6 +183,9 @@
 		840760A32437359E00274465 /* HCNetworking */ = {
 			isa = PBXGroup;
 			children = (
+				847D772D248F3542009B4B6A /* IFLYHIFLYNetworking.h */,
+				847D772E248F3542009B4B6A /* IFLYHIFLYNetworking.m */,
+				847D7715248F3539009B4B6A /* IFLYHAFNetworking */,
 				8473AC29243D62BD00CD3027 /* MBProgressHUD */,
 				840760D92437365000274465 /* AFNetworking */,
 				840760A42437359E00274465 /* AppDelegate.h */,
@@ -250,6 +278,36 @@
 				8473AC2D243D62BD00CD3027 /* MBProgressHUD+Add.h */,
 			);
 			path = MBProgressHUD;
+			sourceTree = "<group>";
+		};
+		847D7715248F3539009B4B6A /* IFLYHAFNetworking */ = {
+			isa = PBXGroup;
+			children = (
+				847D7716248F3539009B4B6A /* IFLYHAFURLRequestSerialization.h */,
+				847D7717248F3539009B4B6A /* IFLYHAFHTTPSessionManager.h */,
+				847D7718248F3539009B4B6A /* IFLYHAFURLResponseSerialization.h */,
+				847D7719248F3539009B4B6A /* IFLYHAFNetworkReachabilityManager.m */,
+				847D771A248F3539009B4B6A /* IFLYHAFURLSessionManager.m */,
+				847D771B248F3539009B4B6A /* IFLYHAFSecurityPolicy.h */,
+				847D771C248F3539009B4B6A /* IFLYHAFURLRequestSerialization.m */,
+				847D771D248F3539009B4B6A /* UIKit+AFNetworking */,
+				847D7720248F3539009B4B6A /* IFLYHAFURLResponseSerialization.m */,
+				847D7721248F3539009B4B6A /* IFLYHAFHTTPSessionManager.m */,
+				847D7722248F3539009B4B6A /* IFLYHAFURLSessionManager.h */,
+				847D7723248F3539009B4B6A /* IFLYHAFNetworking.h */,
+				847D7724248F3539009B4B6A /* IFLYHAFNetworkReachabilityManager.h */,
+				847D7725248F3539009B4B6A /* IFLYHAFSecurityPolicy.m */,
+			);
+			path = IFLYHAFNetworking;
+			sourceTree = "<group>";
+		};
+		847D771D248F3539009B4B6A /* UIKit+AFNetworking */ = {
+			isa = PBXGroup;
+			children = (
+				847D771E248F3539009B4B6A /* IFLYHAFNetworkActivityIndicatorManager.h */,
+				847D771F248F3539009B4B6A /* IFLYHAFNetworkActivityIndicatorManager.m */,
+			);
+			path = "UIKit+AFNetworking";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -383,18 +441,25 @@
 			buildActionMask = 2147483647;
 			files = (
 				840760AC2437359E00274465 /* ViewController.m in Sources */,
+				847D7727248F3539009B4B6A /* IFLYHAFURLSessionManager.m in Sources */,
 				8473AC2F243D62BD00CD3027 /* MBProgressHUD+Add.m in Sources */,
 				8407610D2437375C00274465 /* IFLYNetworking.m in Sources */,
 				840761052437365000274465 /* UIImageView+AFNetworking.m in Sources */,
+				847D7729248F3539009B4B6A /* IFLYHAFNetworkActivityIndicatorManager.m in Sources */,
+				847D772F248F3543009B4B6A /* IFLYHIFLYNetworking.m in Sources */,
 				840761092437365000274465 /* AFAutoPurgingImageCache.m in Sources */,
 				840761062437365000274465 /* UIButton+AFNetworking.m in Sources */,
 				840761012437365000274465 /* AFSecurityPolicy.m in Sources */,
+				847D772A248F3539009B4B6A /* IFLYHAFURLResponseSerialization.m in Sources */,
+				847D7728248F3539009B4B6A /* IFLYHAFURLRequestSerialization.m in Sources */,
 				840761082437365000274465 /* UIWebView+AFNetworking.m in Sources */,
 				8473AC2E243D62BD00CD3027 /* MBProgressHUD.m in Sources */,
+				847D772C248F3539009B4B6A /* IFLYHAFSecurityPolicy.m in Sources */,
 				840760A62437359E00274465 /* AppDelegate.m in Sources */,
 				840760FD2437365000274465 /* AFHTTPSessionManager.m in Sources */,
 				840761072437365000274465 /* UIActivityIndicatorView+AFNetworking.m in Sources */,
 				840761022437365000274465 /* UIProgressView+AFNetworking.m in Sources */,
+				847D7726248F3539009B4B6A /* IFLYHAFNetworkReachabilityManager.m in Sources */,
 				840760FE2437365000274465 /* AFURLSessionManager.m in Sources */,
 				8407610A2437365000274465 /* AFImageDownloader.m in Sources */,
 				840760FC2437365000274465 /* AFURLResponseSerialization.m in Sources */,
@@ -403,6 +468,7 @@
 				840760FF2437365000274465 /* AFURLRequestSerialization.m in Sources */,
 				840761002437365000274465 /* AFNetworkReachabilityManager.m in Sources */,
 				840760B7243735A500274465 /* main.m in Sources */,
+				847D772B248F3539009B4B6A /* IFLYHAFHTTPSessionManager.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
